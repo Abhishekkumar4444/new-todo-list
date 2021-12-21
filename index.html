@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo">
+
+    </p>
+</body>
+<script>
+    let age = prompt('How old are you?', 18);
+
+    function checkAge(age) {
+        if (age >= 18) {
+            return true;
+        } else {
+            return confirm('Do you have permission from your parents?');
+        }
+    }
+
+
+    function name(age) {
+        if (!checkAge(age)) {
+            return;
+        }
+        alert("Access granted")
+
+    }
+
+    name();
+
+    if (checkAge(age)) {
+        alert('Access granted');
+    } else {
+        alert('Access denied');
+    }
+</script>
+
+</html>
