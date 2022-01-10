@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body,
+textarea,
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    min-height: 50vh;
+    position: relative;
+    background: url("chris-lawton-5IHz5WhosQE-unsplash.jpg") center;
+    background-size: cover;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    width: 60%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    width: 85%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.headline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-headline {
+    padding: .8rem 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.section-todo {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.bg {
+    background: black;
+    color: white;
+}
+
+.form-todo {
+    min-height: 7vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-list {
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+.todo-list li {
+    padding: .6rem;
+    background: black;
+    color: cyan;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.todo-btn {
+    padding: .3rem .8rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-todo input {
+    min-height: 100%;
+    margin: 1rem 0;
+}
+
+.form-todo input[type="text"] {
+    width: 70%;
+    padding: .7rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.form-todo input[type="submit"] {
+    width: 15%;
+    min-width: 80px;
+    font-weight: bold;
+}
+
+.section-signup {
+    margin: 5rem auto;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.section-signup h2 {
+    padding-top: 2rem;
+}
+
+.signup-form {
+    max-width: 800px;
+    width: 93%;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: left;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+
+.signup-form label {
+    display: block;
+}
+
+.signup-form input {
+    display: block;
+    width: 100%;
+    padding: .4rem;
+    border-radius: 5px;
+}
+
+.signup-form textarea {
+    width: 100%;
+}
+
+.form-group {
+    margin-top: 1rem;
+}
+
+.btn-signup {
+    background: #44bd32;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+textarea {
+    resize: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+}
